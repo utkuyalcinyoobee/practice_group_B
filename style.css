@@ -5,6 +5,8 @@ h1, h2{
 
 h2{
     font-size: 2rem;
+}
+
     input[type=text], select {
     margin: 40px auto;
     width: clamp(500px, 60%, 800px);
