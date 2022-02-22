@@ -4,6 +4,10 @@
     text-align: justify;
 }
 
+html {
+    background: url(/);
+}
+
 .header a {
     text-decoration: none;
     color: white;
@@ -15,6 +19,11 @@
     display: flex;
     justify-content: flex-end;
     background-color: grey;
+    padding-top: 50px;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    
 }
 
 #about h1 {
