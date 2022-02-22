@@ -1,4 +1,4 @@
-.placeholder{
+.placeholder {
     width: clamp(500px, 60%, 800px);
     margin: 40px auto;
     text-align: justify;
@@ -42,3 +42,45 @@ input[type=text], select {
 .lname{
 text-align: left;
   }
+
+
+/* Mustafas code */
+html {
+    background: url(/);
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    margin: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: grey;
+    padding-top: 50px;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    
+}
+
+#about h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#service h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#contact h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
