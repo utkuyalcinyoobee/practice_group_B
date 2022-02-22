@@ -2,4 +2,32 @@
     width: clamp(500px, 60%, 800px);
     margin: 40px auto;
     text-align: justify;
+    
+}
+
+#service_header{
+    padding-top:2em;
+    text-align: center;
+    margin-top: 1em;
+    color: wheat;
+}
+
+.service_text_box{
+    width: clamp(500px, 60%, 800px);
+    margin: 40px auto;
+    text-align: justify;
+    background-color: wheat;
+    margin-bottom: 1em;
+}
+
+.service_text{
+    color: tomato;
+    margin: 40px auto;
+    text-align: justify;
+    width: clamp(500px, 60%, 800px);
+}
+
+#service{ 
+    padding-bottom: 2em;
+    background-color: tomato;
 }
