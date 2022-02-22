@@ -1,9 +1,3 @@
-#about{
-    width: clamp(500px, 60%, 800px);
-    margin: 40px auto;
-    text-align: justify;
-}
-
 h1, h2{
     text-align: center;
     font-size: 4rem;
@@ -11,4 +5,83 @@ h1, h2{
 
 h2{
     font-size: 2rem;
+    input[type=text], select {
+    margin: 40px auto;
+    width: clamp(500px, 60%, 800px);
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    margin: 40px auto;
+    width: clamp(500px, 60%, 800px);
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    margin: 40px auto;
+    width: clamp(500px, 60%, 800px);
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+.lname{
+text-align: left;
+  }
+
+
+/* Mustafas code */
+html {
+    background: url(/);
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    margin: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: grey;
+    padding-top: 50px;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    
+}
+
+#about h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#service h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#contact h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
