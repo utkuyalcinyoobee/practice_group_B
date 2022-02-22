@@ -1,5 +1,28 @@
-.placeholder{
+.placeholder {
     width: clamp(500px, 60%, 800px);
     margin: 40px auto;
     text-align: justify;
+}
+
+.header a {
+    text-decoration: none;
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+#about h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#service h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#contact h1 {
+    display: flex;
+    justify-content: center;
 }
